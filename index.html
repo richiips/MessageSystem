@@ -1,29 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mensajería</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0f5db43a09.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="main-container">
-        <!--Chats-->
-        <aside>
-
-        </aside>
-
-        <!--Sección Principal-->
-        <section>
-            <img class="empty-state-img" src="assets/img/mensaje.png" alt="">
-            <div class="info-container">
-                <h1>Comienza a Chatear</h1>
-                <h3>Presiona el botón <span class="nuevo-chat-text">"Nuevo Chat"</span> para comenzar a hablar con un amigo 🥳</h3>
+      <!--Chats-->
+      <aside>
+        <!--Profile-->
+        <div class="profile-container">
+          <div class="profile">
+            <div class="profile-pic"><span class="state-point"></span></div>
+            <div>
+              <h3 class="my-name">Richi Olivares</h3>
+              <h6 class="state">Activo ahora</h6>
             </div>
-        </section>
+          </div>
+
+          <div class="options">
+            <a href=""><i class="fa-regular fa-bell"></i></a>
+            <a href=""><i class="fa-regular fa-user"></i></a>
+          </div>
+        </div>
+
+        <!--New chat button-->
+        <div class="new-chat-btn">
+          <button>
+            <i class="fa-regular fa-square-plus"></i>
+            New chat
+          </button>
+        </div>
+
+        <!--Contact list-->
+        <div class="contact-list-container">
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-wBX9dgiWNrTZYw1sVLWIsn4M-Oi1gkLo0ncocr5oA&s');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Juan Nieves</h3>
+              <h5 class="message">Hace frío no? 🥶</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://www.rockandpop.cl/wp-content/uploads/2023/05/Margot-Robbie-Barbie.jpg');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">La Margot</h3>
+              <h5 class="message">te veo mañana 👀</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://i.pinimg.com/564x/3e/c9/0b/3ec90bf99b499b41f7ce4d786452f703.jpg');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Melanie Lobos</h3>
+              <h5 class="message">Miss u 😣</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://i.pinimg.com/564x/de/72/8d/de728d93f7c92c8633a4ea69b8c56365.jpg');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Juan Mecánico</h3>
+              <h5 class="message">🤫🤫🤫🤫🤫🤫🤫</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://i.pinimg.com/564x/f8/ad/9c/f8ad9c12bed19d61df9a66f686d0dbd0.jpg');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Esteban Gomez</h3>
+              <h5 class="message">Buena perrin como...</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://www.mundodeportivo.com/alfabeta/hero/2020/09/mario.jpg?width=768&aspect_ratio=16:9&format=nowebp');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Mario Gásfiter</h3>
+              <h5 class="message">Donde está la fuga?</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5jQNUD_YK_-Mh7VLHjPlgD_NjU5Fht9q2j75g20PoA&s');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Woody</h3>
+              <h5 class="message">Sabes como matar serpientes?</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://www.latercera.com/resizer/Q7I4Eq375JXysO7S_uNZVcOm3Oc=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/4ETBYLJSDVHNTMNFVCXKROMRUA.jpg');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Nico Furia</h3>
+              <h5 class="message">Te gustaría entrar al grupo?</h5>
+            </div>
+          </div>
+
+          <!--Contact Card-->
+          <div class="contact-card">
+            <div
+              class="contact-profile-pic"
+              style="
+                background-image: url('https://depor.com/resizer/Q-v0bsqP7mz4T4lcQMLXtbLYdHc=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/4HFH2SWZ35E3BE6VXIRA6X2EZA.jpg');
+              "
+            >
+              <span class="state-point"></span>
+            </div>
+            <div class="contact-name-container">
+              <h3 class="my-name">Tío Vegeta</h3>
+              <h5 class="message">Acuestate INSECTO! jawj....</h5>
+            </div>
+          </div>
+
+        </div>
+      </aside>
+
+      <!--Sección Principal-->
+      <section>
+        <img class="empty-state-img" src="assets/img/mensaje.png" alt="" />
+        <div class="info-container">
+          <h1>Comienza a Chatear</h1>
+          <h3 class="complementary-text">
+            Presiona el botón
+            <span class="nuevo-chat-text">"Nuevo Chat"</span> para comenzar a
+            hablar con un amigo 🥳
+          </h3>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
